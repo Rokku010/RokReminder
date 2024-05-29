@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct HomeView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -39,6 +39,16 @@ struct ContentView: View {
                 }
             }
             Text("Select an item")
+        }
+        ZStack{
+            VStack{
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("heloo,world!")
+                Text("Bye World!")
+            }
+            .padding()
         }
     }
 
@@ -82,5 +92,5 @@ private let itemFormatter: DateFormatter = {
 }()
 
 #Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    HomeView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
 }
