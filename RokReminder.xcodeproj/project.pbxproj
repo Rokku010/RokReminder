@@ -8,21 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		8710D00E2C0408F300CA9F6B /* RokReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D00D2C0408F300CA9F6B /* RokReminderApp.swift */; };
-		8710D0102C0408F300CA9F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D00F2C0408F300CA9F6B /* ContentView.swift */; };
+		8710D0102C0408F300CA9F6B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D00F2C0408F300CA9F6B /* HomeView.swift */; };
 		8710D0122C0408F400CA9F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8710D0112C0408F400CA9F6B /* Assets.xcassets */; };
 		8710D0152C0408F400CA9F6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8710D0142C0408F400CA9F6B /* Preview Assets.xcassets */; };
 		8710D0172C0408F400CA9F6B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0162C0408F400CA9F6B /* Persistence.swift */; };
-		8710D01A2C0408F400CA9F6B /* RokReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0182C0408F400CA9F6B /* RokReminder.xcdatamodeld */; };
+		8710D0222C040ACE00CA9F6B /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0212C040ACE00CA9F6B /* CoreDataProvider.swift */; };
+		8710D0252C04375D00CA9F6B /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0232C04375D00CA9F6B /* ReminderModel.xcdatamodeld */; };
+		8710D0282C043B7E00CA9F6B /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0272C043B7E00CA9F6B /* MyList+CoreDataClass.swift */; };
+		8710D02A2C043BE900CA9F6B /* Mylist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0292C043BE900CA9F6B /* Mylist+CoreDataProperties.swift */; };
+		8710D02D2C05555900CA9F6B /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D02C2C05555900CA9F6B /* AddNewListView.swift */; };
+		8710D02F2C0556C000CA9F6B /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D02E2C0556C000CA9F6B /* ColorPickerView.swift */; };
+		8710D0322C06DDC400CA9F6B /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0312C06DDC400CA9F6B /* ReminderService.swift */; };
+		8710D0352C06E00400CA9F6B /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0342C06E00400CA9F6B /* UIColorTransformer.swift */; };
+		8710D0372C06EA6A00CA9F6B /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0362C06EA6A00CA9F6B /* MyListsView.swift */; };
+		8710D0392C06ED2500CA9F6B /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0382C06ED2500CA9F6B /* MyListCellView.swift */; };
+		8710D03B2C06ED7100CA9F6B /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D03A2C06ED7100CA9F6B /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8710D00A2C0408F300CA9F6B /* RokReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RokReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8710D00D2C0408F300CA9F6B /* RokReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokReminderApp.swift; sourceTree = "<group>"; };
-		8710D00F2C0408F300CA9F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8710D00F2C0408F300CA9F6B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8710D0112C0408F400CA9F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8710D0142C0408F400CA9F6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8710D0162C0408F400CA9F6B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		8710D0192C0408F400CA9F6B /* RokReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RokReminder.xcdatamodel; sourceTree = "<group>"; };
+		8710D0212C040ACE00CA9F6B /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		8710D0242C04375D00CA9F6B /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
+		8710D0272C043B7E00CA9F6B /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8710D0292C043BE900CA9F6B /* Mylist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mylist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8710D02C2C05555900CA9F6B /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
+		8710D02E2C0556C000CA9F6B /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		8710D0312C06DDC400CA9F6B /* ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderService.swift; sourceTree = "<group>"; };
+		8710D0342C06E00400CA9F6B /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
+		8710D0362C06EA6A00CA9F6B /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
+		8710D0382C06ED2500CA9F6B /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
+		8710D03A2C06ED7100CA9F6B /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +75,16 @@
 		8710D00C2C0408F300CA9F6B /* RokReminder */ = {
 			isa = PBXGroup;
 			children = (
+				8710D0332C06DFD700CA9F6B /* Transformers */,
+				8710D0302C06DD9100CA9F6B /* Services */,
+				8710D02B2C05552400CA9F6B /* Views */,
+				8710D0262C043B2A00CA9F6B /* Model */,
+				8710D0202C040A5800CA9F6B /* Providers */,
 				8710D00D2C0408F300CA9F6B /* RokReminderApp.swift */,
-				8710D00F2C0408F300CA9F6B /* ContentView.swift */,
 				8710D0112C0408F400CA9F6B /* Assets.xcassets */,
 				8710D0162C0408F400CA9F6B /* Persistence.swift */,
-				8710D0182C0408F400CA9F6B /* RokReminder.xcdatamodeld */,
 				8710D0132C0408F400CA9F6B /* Preview Content */,
+				8710D0232C04375D00CA9F6B /* ReminderModel.xcdatamodeld */,
 			);
 			path = RokReminder;
 			sourceTree = "<group>";
@@ -69,8 +93,54 @@
 			isa = PBXGroup;
 			children = (
 				8710D0142C0408F400CA9F6B /* Preview Assets.xcassets */,
+				8710D03A2C06ED7100CA9F6B /* PreviewData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8710D0202C040A5800CA9F6B /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				8710D0212C040ACE00CA9F6B /* CoreDataProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		8710D0262C043B2A00CA9F6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8710D0272C043B7E00CA9F6B /* MyList+CoreDataClass.swift */,
+				8710D0292C043BE900CA9F6B /* Mylist+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8710D02B2C05552400CA9F6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8710D00F2C0408F300CA9F6B /* HomeView.swift */,
+				8710D02C2C05555900CA9F6B /* AddNewListView.swift */,
+				8710D02E2C0556C000CA9F6B /* ColorPickerView.swift */,
+				8710D0362C06EA6A00CA9F6B /* MyListsView.swift */,
+				8710D0382C06ED2500CA9F6B /* MyListCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8710D0302C06DD9100CA9F6B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8710D0312C06DDC400CA9F6B /* ReminderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8710D0332C06DFD700CA9F6B /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				8710D0342C06E00400CA9F6B /* UIColorTransformer.swift */,
+			);
+			path = Transformers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8710D0392C06ED2500CA9F6B /* MyListCellView.swift in Sources */,
 				8710D0172C0408F400CA9F6B /* Persistence.swift in Sources */,
-				8710D0102C0408F300CA9F6B /* ContentView.swift in Sources */,
-				8710D01A2C0408F400CA9F6B /* RokReminder.xcdatamodeld in Sources */,
+				8710D0352C06E00400CA9F6B /* UIColorTransformer.swift in Sources */,
+				8710D0322C06DDC400CA9F6B /* ReminderService.swift in Sources */,
+				8710D0102C0408F300CA9F6B /* HomeView.swift in Sources */,
+				8710D03B2C06ED7100CA9F6B /* PreviewData.swift in Sources */,
+				8710D0282C043B7E00CA9F6B /* MyList+CoreDataClass.swift in Sources */,
+				8710D02D2C05555900CA9F6B /* AddNewListView.swift in Sources */,
+				8710D02F2C0556C000CA9F6B /* ColorPickerView.swift in Sources */,
+				8710D0372C06EA6A00CA9F6B /* MyListsView.swift in Sources */,
 				8710D00E2C0408F300CA9F6B /* RokReminderApp.swift in Sources */,
+				8710D0222C040ACE00CA9F6B /* CoreDataProvider.swift in Sources */,
+				8710D0252C04375D00CA9F6B /* ReminderModel.xcdatamodeld in Sources */,
+				8710D02A2C043BE900CA9F6B /* Mylist+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,13 +434,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8710D0182C0408F400CA9F6B /* RokReminder.xcdatamodeld */ = {
+		8710D0232C04375D00CA9F6B /* ReminderModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8710D0192C0408F400CA9F6B /* RokReminder.xcdatamodel */,
+				8710D0242C04375D00CA9F6B /* RemindersModel.xcdatamodel */,
 			);
-			currentVersion = 8710D0192C0408F400CA9F6B /* RokReminder.xcdatamodel */;
-			path = RokReminder.xcdatamodeld;
+			currentVersion = 8710D0242C04375D00CA9F6B /* RemindersModel.xcdatamodel */;
+			path = ReminderModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
