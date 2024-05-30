@@ -23,6 +23,10 @@
 		8710D0372C06EA6A00CA9F6B /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0362C06EA6A00CA9F6B /* MyListsView.swift */; };
 		8710D0392C06ED2500CA9F6B /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D0382C06ED2500CA9F6B /* MyListCellView.swift */; };
 		8710D03B2C06ED7100CA9F6B /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710D03A2C06ED7100CA9F6B /* PreviewData.swift */; };
+		87EA13002C080B5600F96E5A /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EA12FF2C080B5600F96E5A /* MyListDetailView.swift */; };
+		87EA13022C08D6BE00F96E5A /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EA13012C08D6BE00F96E5A /* ReminderListView.swift */; };
+		87EA13042C08DD8800F96E5A /* ReminderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EA13032C08DD8800F96E5A /* ReminderCellView.swift */; };
+		87EA13072C08E1DA00F96E5A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EA13062C08E1DA00F96E5A /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		8710D0362C06EA6A00CA9F6B /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
 		8710D0382C06ED2500CA9F6B /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
 		8710D03A2C06ED7100CA9F6B /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		87EA12FF2C080B5600F96E5A /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
+		87EA13012C08D6BE00F96E5A /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		87EA13032C08DD8800F96E5A /* ReminderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCellView.swift; sourceTree = "<group>"; };
+		87EA13062C08E1DA00F96E5A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		8710D00C2C0408F300CA9F6B /* RokReminder */ = {
 			isa = PBXGroup;
 			children = (
+				87EA13052C08E1A200F96E5A /* Extensions */,
 				8710D0332C06DFD700CA9F6B /* Transformers */,
 				8710D0302C06DD9100CA9F6B /* Services */,
 				8710D02B2C05552400CA9F6B /* Views */,
@@ -123,6 +132,9 @@
 				8710D02E2C0556C000CA9F6B /* ColorPickerView.swift */,
 				8710D0362C06EA6A00CA9F6B /* MyListsView.swift */,
 				8710D0382C06ED2500CA9F6B /* MyListCellView.swift */,
+				87EA12FF2C080B5600F96E5A /* MyListDetailView.swift */,
+				87EA13012C08D6BE00F96E5A /* ReminderListView.swift */,
+				87EA13032C08DD8800F96E5A /* ReminderCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,6 +153,14 @@
 				8710D0342C06E00400CA9F6B /* UIColorTransformer.swift */,
 			);
 			path = Transformers;
+			sourceTree = "<group>";
+		};
+		87EA13052C08E1A200F96E5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				87EA13062C08E1DA00F96E5A /* Date+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,14 +239,18 @@
 				8710D0322C06DDC400CA9F6B /* ReminderService.swift in Sources */,
 				8710D0102C0408F300CA9F6B /* HomeView.swift in Sources */,
 				8710D03B2C06ED7100CA9F6B /* PreviewData.swift in Sources */,
+				87EA13002C080B5600F96E5A /* MyListDetailView.swift in Sources */,
 				8710D0282C043B7E00CA9F6B /* MyList+CoreDataClass.swift in Sources */,
 				8710D02D2C05555900CA9F6B /* AddNewListView.swift in Sources */,
 				8710D02F2C0556C000CA9F6B /* ColorPickerView.swift in Sources */,
 				8710D0372C06EA6A00CA9F6B /* MyListsView.swift in Sources */,
+				87EA13072C08E1DA00F96E5A /* Date+Extensions.swift in Sources */,
 				8710D00E2C0408F300CA9F6B /* RokReminderApp.swift in Sources */,
 				8710D0222C040ACE00CA9F6B /* CoreDataProvider.swift in Sources */,
 				8710D0252C04375D00CA9F6B /* ReminderModel.xcdatamodeld in Sources */,
+				87EA13022C08D6BE00F96E5A /* ReminderListView.swift in Sources */,
 				8710D02A2C043BE900CA9F6B /* Mylist+CoreDataProperties.swift in Sources */,
+				87EA13042C08DD8800F96E5A /* ReminderCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

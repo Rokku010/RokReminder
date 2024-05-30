@@ -18,7 +18,7 @@ extension MyList{
     
     @NSManaged public var name: String
     @NSManaged public var color: UIColor
-//    @NSManaged public var remunders: NSSet?
+    @NSManaged public var reminders: NSSet?
 }
 
 extension MyList: Identifiable{
@@ -26,15 +26,15 @@ extension MyList: Identifiable{
 }
 // MARK: Generated accessors for nores
 extension MyList{
-//    @objc(addRemindersObject:)
-//    @NSManaged public func addToReminders(_ value: Reminder)
-//    
-//    @objc(removeRemindersOnject:)
-//    @NSManaged public func removeFromReminders(_ value: Reminder)
+    @objc(addRemindersObject:)
+    @NSManaged public func addToReminders(_ value: Reminder)
     
-//    @objc(addReninders:)
-//    @NSManaged public func AddToReminders(_ value: NSSet)
-//    
-//    @objc(removeReminders:)
-//    @NSManaged public func removeFromReminders(_ value: NSSet)
+    @objc(removeRemindersOnject:)
+    @NSManaged public func removeFromReminders(_ value: Reminder)
+    
+    @objc(addReninders:)
+    @NSManaged public func AddToReminders(_ value: NSSet)
+    
+    @objc(removeReminders:)
+    @NSManaged public func removeFromReminders(_ value: NSSet)
 }
